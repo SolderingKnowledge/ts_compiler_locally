@@ -11,10 +11,10 @@
 // console.log(addBorder(["abc", "bbc"]));//["*******", "*abc*", "*bbc*", "*****"]
 class Some {
     constructor(eyes) {
-        this.me = "red"; //me = "red";
         this.eyes = eyes;
     }
 }
 var some = new Some(2);
-console.log(some.eyes, some.me); // 2 "red"
+some.me = "red"; // and we give here
+console.log(some.eyes, some.me); // 2 red
 //# sourceMappingURL=app.js.map

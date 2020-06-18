@@ -10,7 +10,7 @@
 // console.log(addBorder(["abc", "bbc"]));//["*******", "*abc*", "*bbc*", "*****"]
 
 class Some {
-    me: string = "red"; //me = "red";
+    me?: string;// optional
     eyes: number;
     constructor(eyes: number){
       this.eyes = eyes;
@@ -18,7 +18,10 @@ class Some {
   }
   
 var some = new Some(2);
-console.log(some.eyes, some.me);// 2 "red"
+some.me = "red"; // and we give here
+console.log(some.eyes, some.me);// 2 red
+
+
 
 
 

@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",  
+    "target": "es6",  
     "module": "commonjs",
     "strict": true,    //follows the strict syntax rule  
     "esModuleInterop": true,
-    "sourceMap": true,
+    "sourceMap": true
   }
 }
